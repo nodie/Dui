@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B46099B1609B38F004BEFB3 /* YULocateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B46099A1609B38F004BEFB3 /* YULocateViewController.m */; };
+		0B46099E1609C694004BEFB3 /* Provineces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B46099D1609C694004BEFB3 /* Provineces.plist */; };
+		0BB0A77B1605C38200365757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0A77A1605C38200365757 /* UIKit.framework */; };
+		0BB0A77D1605C38200365757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0A77C1605C38200365757 /* Foundation.framework */; };
+		0BB0A77F1605C38200365757 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0A77E1605C38200365757 /* CoreGraphics.framework */; };
+		0BB0A7851605C38200365757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BB0A7831605C38200365757 /* InfoPlist.strings */; };
+		0BB0A7871605C38200365757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0A7861605C38200365757 /* main.m */; };
+		0BB0A78B1605C38200365757 /* YUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0A78A1605C38200365757 /* YUAppDelegate.m */; };
+		0BB0A78E1605C38200365757 /* YUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0A78D1605C38200365757 /* YUViewController.m */; };
+		0BB0A7911605C38200365757 /* YUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB0A78F1605C38200365757 /* YUViewController.xib */; };
+		0BB0A7991605C43B00365757 /* YUTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0A7981605C43B00365757 /* YUTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B4609991609B38F004BEFB3 /* YULocateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YULocateViewController.h; sourceTree = "<group>"; };
+		0B46099A1609B38F004BEFB3 /* YULocateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YULocateViewController.m; sourceTree = "<group>"; };
+		0B46099D1609C694004BEFB3 /* Provineces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Provineces.plist; sourceTree = "<group>"; };
+		0BB0A7761605C38200365757 /* Dui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB0A77A1605C38200365757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BB0A77C1605C38200365757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BB0A77E1605C38200365757 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BB0A7821605C38200365757 /* Dui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dui-Info.plist"; sourceTree = "<group>"; };
+		0BB0A7841605C38200365757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BB0A7861605C38200365757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BB0A7881605C38200365757 /* Dui-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dui-Prefix.pch"; sourceTree = "<group>"; };
+		0BB0A7891605C38200365757 /* YUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUAppDelegate.h; sourceTree = "<group>"; };
+		0BB0A78A1605C38200365757 /* YUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUAppDelegate.m; sourceTree = "<group>"; };
+		0BB0A78C1605C38200365757 /* YUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUViewController.h; sourceTree = "<group>"; };
+		0BB0A78D1605C38200365757 /* YUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUViewController.m; sourceTree = "<group>"; };
+		0BB0A7901605C38200365757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YUViewController.xib; sourceTree = "<group>"; };
+		0BB0A7971605C43B00365757 /* YUTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUTableViewController.h; sourceTree = "<group>"; };
+		0BB0A7981605C43B00365757 /* YUTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB0A7731605C38200365757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB0A77B1605C38200365757 /* UIKit.framework in Frameworks */,
+				0BB0A77D1605C38200365757 /* Foundation.framework in Frameworks */,
+				0BB0A77F1605C38200365757 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB0A76B1605C38200365757 = {
+			isa = PBXGroup;
+			children = (
+				0BB0A7801605C38200365757 /* Dui */,
+				0BB0A7791605C38200365757 /* Frameworks */,
+				0BB0A7771605C38200365757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BB0A7771605C38200365757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB0A7761605C38200365757 /* Dui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BB0A7791605C38200365757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BB0A77A1605C38200365757 /* UIKit.framework */,
+				0BB0A77C1605C38200365757 /* Foundation.framework */,
+				0BB0A77E1605C38200365757 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BB0A7801605C38200365757 /* Dui */ = {
+			isa = PBXGroup;
+			children = (
+				0BB0A7891605C38200365757 /* YUAppDelegate.h */,
+				0BB0A78A1605C38200365757 /* YUAppDelegate.m */,
+				0B4609991609B38F004BEFB3 /* YULocateViewController.h */,
+				0B46099A1609B38F004BEFB3 /* YULocateViewController.m */,
+				0BB0A78C1605C38200365757 /* YUViewController.h */,
+				0BB0A78D1605C38200365757 /* YUViewController.m */,
+				0BB0A78F1605C38200365757 /* YUViewController.xib */,
+				0BB0A7971605C43B00365757 /* YUTableViewController.h */,
+				0BB0A7981605C43B00365757 /* YUTableViewController.m */,
+				0BB0A7811605C38200365757 /* Supporting Files */,
+			);
+			path = Dui;
+			sourceTree = "<group>";
+		};
+		0BB0A7811605C38200365757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BB0A7821605C38200365757 /* Dui-Info.plist */,
+				0B46099D1609C694004BEFB3 /* Provineces.plist */,
+				0BB0A7831605C38200365757 /* InfoPlist.strings */,
+				0BB0A7861605C38200365757 /* main.m */,
+				0BB0A7881605C38200365757 /* Dui-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BB0A7751605C38200365757 /* Dui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB0A7941605C38200365757 /* Build configuration list for PBXNativeTarget "Dui" */;
+			buildPhases = (
+				0BB0A7721605C38200365757 /* Sources */,
+				0BB0A7731605C38200365757 /* Frameworks */,
+				0BB0A7741605C38200365757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dui;
+			productName = Dui;
+			productReference = 0BB0A7761605C38200365757 /* Dui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BB0A76D1605C38200365757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YU;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "於 琦峰";
+			};
+			buildConfigurationList = 0BB0A7701605C38200365757 /* Build configuration list for PBXProject "Dui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BB0A76B1605C38200365757;
+			productRefGroup = 0BB0A7771605C38200365757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BB0A7751605C38200365757 /* Dui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BB0A7741605C38200365757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB0A7851605C38200365757 /* InfoPlist.strings in Resources */,
+				0BB0A7911605C38200365757 /* YUViewController.xib in Resources */,
+				0B46099E1609C694004BEFB3 /* Provineces.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB0A7721605C38200365757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB0A7871605C38200365757 /* main.m in Sources */,
+				0BB0A78B1605C38200365757 /* YUAppDelegate.m in Sources */,
+				0BB0A78E1605C38200365757 /* YUViewController.m in Sources */,
+				0BB0A7991605C43B00365757 /* YUTableViewController.m in Sources */,
+				0B46099B1609B38F004BEFB3 /* YULocateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BB0A7831605C38200365757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB0A7841605C38200365757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BB0A78F1605C38200365757 /* YUViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB0A7901605C38200365757 /* en */,
+			);
+			name = YUViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BB0A7921605C38200365757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BB0A7931605C38200365757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BB0A7951605C38200365757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dui/Dui-Prefix.pch";
+				INFOPLIST_FILE = "Dui/Dui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BB0A7961605C38200365757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dui/Dui-Prefix.pch";
+				INFOPLIST_FILE = "Dui/Dui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BB0A7701605C38200365757 /* Build configuration list for PBXProject "Dui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB0A7921605C38200365757 /* Debug */,
+				0BB0A7931605C38200365757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB0A7941605C38200365757 /* Build configuration list for PBXNativeTarget "Dui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB0A7951605C38200365757 /* Debug */,
+				0BB0A7961605C38200365757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BB0A76D1605C38200365757 /* Project object */;
+}
